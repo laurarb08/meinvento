@@ -1,0 +1,46 @@
+section.main {
+    margin: 30px 0;
+}
+
+h1.titu-project {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fdc800;
+    margin: 15px 0;
+}
+
+h3.role {
+    font-size: 22px;
+    line-height: 26px;
+    color: #4fbfd4;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+p.txt-project {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    color: #707070;
+    font-weight: 300;
+}
+
+img.project-pic, img.project-pic-gif {
+    max-width: 100%;
+    background-color: #f6f6f6;
+    margin: 15px 0;
+}
+
+
+@media (max-width: 1199px){
+
+}
+
+@media (max-width: 767px){
+    img.project-pic-gif{
+        width: 60%;
+        display: block;
+        margin: 15px auto;
+    }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Me Invento | Movistar | Diseño Gráfico y Web</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../sources/images/favicon-32x32.png" sizes="32x32"/>
+	<link rel="icon" type="image/png" href="../sources/images/favicon-16x16.png" sizes="16x16"/>
+	<link rel="stylesheet" type="text/css" href="../sources/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../sources/css/hamburger.css">
+	<link rel="stylesheet" type="text/css" href="../sources/css/styles-menu.css">
+	<link rel="stylesheet" type="text/css" href="../sources/css/styles-project.css">
+	<script type="text/javascript" src="../sources/js/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="../sources/js/bootstrap.min.js"></script>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-101324417-1', 'auto');
+	ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mod-logo">
+					<a href="/"><img src="../sources/images/logo-meinvento.png" alt="" class="logo"></a>
+				</div>
+				<div class="menu  hamburger hamburger--spin hidden-md hidden-lg">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+				<div class="mod-enlaces">
+					<ul class="menu-items">
+						<li><a href="../es/index.html">Inicio</a></li>
+						<li><a href="../es/portafolio.html" class="active">Portafolio</a></li>
+						<li><a href="../es/acerca-de-mi.html">Acerca de mi</a></li>
+						<li><a href="../es/contacto.html">Contacto</a></li>
+						<li><a href="../en/index.html">EN</a> <span class="line">|</span>
+							<a href="../es/index.html" class="active-lang">ES</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h1 class="titu-project">/Movistar</h1>
+				<h3 class="role">Diseño web + Administración de contenido</h3>
+				<p class="txt-project">Movistar es uno de los operadores de comunicación más grandes de Colombia, el cual vende tanto servicios móviles como de hogar. El trabajo que desarrollé con esta marca fue netamente diseño web, que incluía soluciones de interacción, diseño y desarrollo de páginas que estuvieran al servicio de la marca como del usuario final. La metodología para este proyecto abarcó desde el desarrollo de wireframes, hasta la implementación final del sitio. Así como otros elementos de apoyo de marketing digital como email marketing, google analytics y redes sociales. </p>
+				<img src="../sources/images/movistar/movistar1.png" alt="" class="project-pic">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1">
+				<img src="../sources/images/movistar/movistar2.png" alt="" class="project-pic">
+			</div>
+			<div class="col-md-5">
+				<img src="../sources/images/movistar/movistar3.png" alt="" class="project-pic">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<img src="../sources/images/movistar/movistar4.png" alt="" class="project-pic">
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mod-foot">
+					<p class="txt-foot1">Todos los derechos reservados</p>
+					<p class="txt-foot2">Me Invento 2018</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+<script>
+var $hamburger = $(".hamburger");
+$hamburger.on("click", function(e) {
+	$hamburger.toggleClass("is-active");
+	if($(".menu").hasClass("open")){
+		$(".menu").removeClass("open");
+		$(".mod-enlaces").removeClass("open");
+	}
+	else{
+		$(".menu").addClass("open");
+		$(".mod-enlaces").addClass("open");
+	}
+});
+
+</script>
+</html>

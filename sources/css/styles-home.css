@@ -1,0 +1,115 @@
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+.bg-home{
+	background-image: url('../images/bg-home-meinvento.png');
+	height: 100vh;
+	background-size: cover;
+	overflow: hidden;
+}
+
+img.big-logo {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+}
+
+ul.nav-home li{
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.box-white {
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    float: right;
+    margin-top: 250px;
+    min-height: 370px;
+    padding: 40px;
+	position: relative;
+}
+
+.menu-home {
+    border-bottom: 5px solid #ffe657;
+    position: absolute;
+    width: 1240px;
+    left: -40px;
+    bottom: 30px;
+}
+
+ul.nav-home {
+    margin: 0 0 10px 80px;
+	padding: 0;
+}
+
+a.item-home {
+    color: #707070;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+}
+
+a.item-home:hover{
+    color: #4fbfd4;
+	transition: color 0.2s ease;
+	text-decoration: none;
+}
+
+@media (max-width: 1366px){
+.box-white {
+	margin-top: 170px;
+    max-width: 979px;
+}
+}
+
+@media (max-width: 992px){
+img.big-logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.menu-home{
+	width: 100%;
+	left: 0;
+	margin: 0 auto;
+}
+ul.nav-home {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 371px;
+    margin-bottom: 10px;
+}
+}
+@media (max-width: 767px){
+.box-white {
+	margin-top: 60px;
+    min-height: 280px;
+}
+}
+
+@media (max-width: 420px){
+.bg-home{
+	background-image: url('../images/bg-home-mobile-meinvento.png');
+	background-size: cover;
+}
+
+a.item-home {
+    font-weight: 300;
+}
+
+.box-white {
+    min-height: 240px;
+}
+a.item-home {
+	font-size: 16px;
+}
+ul.nav-home li {
+    margin: 0px 15px;
+}
+
+ul.nav-home {
+    max-width: 100%;
+    text-align: center;
+}
+}

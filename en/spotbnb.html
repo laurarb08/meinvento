@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Me Invento | Spotbnb | Web & Graphic Design</title>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../sources/images/favicon-32x32.png" sizes="32x32"/>
+	<link rel="icon" type="image/png" href="../sources/images/favicon-16x16.png" sizes="16x16"/>
+	<link rel="stylesheet" type="text/css" href="../sources/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../sources/css/hamburger.css">
+	<link rel="stylesheet" type="text/css" href="../sources/css/styles-menu.css">
+	<link rel="stylesheet" type="text/css" href="../sources/css/styles-project.css">
+	<script type="text/javascript" src="../sources/js/jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="../sources/js/bootstrap.min.js"></script>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-101324417-1', 'auto');
+	ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mod-logo">
+					<a href="/"><img src="../sources/images/logo-meinvento.png" alt="" class="logo"></a>
+				</div>
+				<div class="menu  hamburger hamburger--spin hidden-md hidden-lg">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div>
+				</div>
+				<div class="mod-enlaces">
+					<ul class="menu-items">
+						<li><a href="../en/index.html">Home</a></li>
+						<li><a href="../en/my-work.html" class="active">My Work</a></li>
+						<li><a href="../en/about-me.html">About Me</a></li>
+						<li><a href="../en/contact.html">Contact Me</a></li>
+						<li><a href="../en/index.html" class="active-lang">EN</a> <span class="line">|</span> <a href="../es/index.html">ES</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<h1 class="titu-project">/Spotbnb</h1>
+				<h3 class="role">Branding + Web/App Design</h3>
+				<p class="txt-project">Spotbnb is a Colombian startup that looks to serve as an intermediary between users who rent and make use of parking lots in Bogota city, it was solved through and app and website. I was in charge of the art direction, creating the brand, the app design, and the website layout.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1">
+				<img src="../sources/images/spotbnb/spotbnb1.png" alt="" class="project-pic">
+			</div>
+			<div class="col-md-5">
+				<img src="../sources/images/spotbnb/spotbnb2.png" alt="" class="project-pic">
+				<img src="../sources/images/spotbnb/spotbnb3.png" alt="" class="project-pic">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<img src="../sources/images/spotbnb/spotbnb4.png" alt="" class="project-pic">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<img src="../sources/images/spotbnb/spotbnb5.png" alt="" class="project-pic">
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mod-foot">
+					<p class="txt-foot1">All rights reserved</p>
+					<p class="txt-foot2">Me Invento 2018</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+<script>
+var $hamburger = $(".hamburger");
+$hamburger.on("click", function(e) {
+	$hamburger.toggleClass("is-active");
+	if($(".menu").hasClass("open")){
+		$(".menu").removeClass("open");
+		$(".mod-enlaces").removeClass("open");
+	}
+	else{
+		$(".menu").addClass("open");
+		$(".mod-enlaces").addClass("open");
+	}
+});
+
+$(document).ready(function(){
+  $(window).scroll(function() {
+	if ($(document).scrollTop() > 100) {
+	  $('.ps-bar').addClass('anim-ps-bar');
+	  $('.ai-bar').addClass('anim-ai-bar');
+	  $('.id-bar').addClass('anim-id-bar');
+	  $('.ht-bar').addClass('anim-ht-bar');
+	  $('.cs-bar').addClass('anim-cs-bar');
+	  $('.js-bar').addClass('anim-js-bar');
+	}
+  });
+});
+</script>
+</html>
